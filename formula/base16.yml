@@ -1,0 +1,5 @@
+summary: $PACKAGE_SUMMARY
+webpage: $PACKAGE_WEB_URL
+version: $PACKAGE_VERSION
+bin-url: $PACKAGE_BIN_URL
+bin-sha: $PACKAGE_BIN_SHA
