@@ -45,7 +45,7 @@ jobs:
           fi
 
       - run: ./ndk-pkg install android-34-arm64-v8a/${{ matrix.pkg }} --exe=fsle
-      - run: ./ndk-pkg pack    android-34-arm64-v8a/${{ matrix.pkg }} -o .
+      - run: ./ndk-pkg pack    android-34-arm64-v8a/${{ matrix.pkg }} -o . --exclude=include --exclude=lib
 
       - run: |
           PACKAGE_SUMMARY="\$(./ndk-pkg info-installed android-34-arm64-v8a/${{ matrix.pkg }} summary)"
