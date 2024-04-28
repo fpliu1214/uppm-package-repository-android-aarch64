@@ -1,5 +1,5 @@
 summary: Arbitrary precision numeric processing language
 webpage: https://www.gnu.org/software/bc
 version: 1.07.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/bc-1.07.1-android-aarch64.tar.xz
-bin-sha: f089ee585340193ce13cb40ede5b2b56db769ab20fc15bfd18b3e07306dc2af0
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.28/bc-1.07.1-android-aarch64.tar.xz
+bin-sha: f34b9c3434fcbe3d6fdefab6bce771227606bd46aa9af50241a9f1f66e24571a

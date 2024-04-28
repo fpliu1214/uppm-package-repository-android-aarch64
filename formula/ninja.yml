@@ -1,5 +1,5 @@
 summary: A small build system with a focus on speed
 webpage: https://ninja-build.org
 version: 1.12.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/ninja-1.12.0-android-aarch64.tar.xz
-bin-sha: 6f63b5e7b7f08c07cf923927e72ba074781e41716cb7ea061a4a100ee4b351a3
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.28/ninja-1.12.0-android-aarch64.tar.xz
+bin-sha: 81a884223348c66f6f592012e5e53db8bd4b58e5801340233a0d04fb6a1e5fc5

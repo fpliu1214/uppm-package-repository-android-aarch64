@@ -1,5 +1,5 @@
 summary: GNU awk utility
 webpage: https://www.gnu.org/software/gawk
 version: 5.3.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/gawk-5.3.0-android-aarch64.tar.xz
-bin-sha: 4314eabfc6ae3fd53004f72d5e47d5d3728bcddd43cee42d742366c8670d1aad
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.28/gawk-5.3.0-android-aarch64.tar.xz
+bin-sha: fc98c574e4df18853b119267babb5d993cdce449226bbeaa26586c81416dca38

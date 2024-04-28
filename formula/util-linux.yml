@@ -1,5 +1,5 @@
 summary: A collection of Linux utilities
 webpage: https://github.com/util-linux/util-linux
 version: 2.39.3
-bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/util-linux-2.39.3-android-aarch64.tar.xz
-bin-sha: fc8c698ea7916b6260e057ea84cfa56fc28dc3d253ae2c0dd53c5a38cacec7e2
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.28/util-linux-2.39.3-android-aarch64.tar.xz
+bin-sha: 81cb63fb721f9b7388f8b9b688e809e6a353871fb40131828f0f606dd10f3efb

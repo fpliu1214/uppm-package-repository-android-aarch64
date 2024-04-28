@@ -1,5 +1,5 @@
 summary: A file server that supports static serving, uploading, searching, accessing control, webdav...
 webpage: https://github.com/sigoden/dufs
 version: 0.40.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/dufs-0.40.0-android-aarch64.tar.xz
-bin-sha: 74eb731c22a61342577e596f935dad441c561bb215efb5bb8acac211dca4c607
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.28/dufs-0.40.0-android-aarch64.tar.xz
+bin-sha: 701b8e216c0397c09693d7a1451b2bf91bb5135e802a87a13514674ee7fe5f51
