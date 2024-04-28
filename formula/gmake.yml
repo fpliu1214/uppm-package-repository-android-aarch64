@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: Utility for directing compilation
+webpage: https://www.gnu.org/software/make
+version: 4.4.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/gmake-4.4.1-android-aarch64.tar.xz
+bin-sha: a0502ff8356774e00a3a54f321320049f0e0f33a47d53c5d0f9abe20a154aadd

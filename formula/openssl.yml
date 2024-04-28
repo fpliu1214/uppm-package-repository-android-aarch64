@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: Cryptography and SSL/TLS Toolkit
+webpage: https://www.openssl.org/
+version: 3.2.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/openssl-3.2.1-android-aarch64.tar.xz
+bin-sha: 34e785c488cb959c46e55e9aefbea6627f71ad94424a4524e2202d4db53a81ec

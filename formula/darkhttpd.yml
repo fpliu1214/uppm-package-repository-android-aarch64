@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: A small static web server without CGI
+webpage: https://unix4lyfe.org/darkhttpd/
+version: 1.16
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/darkhttpd-1.16-android-aarch64.tar.xz
+bin-sha: 3af5f63ced505a00196c864796e872e2b7fab45c63fcc5a1803b4822f548a9b8

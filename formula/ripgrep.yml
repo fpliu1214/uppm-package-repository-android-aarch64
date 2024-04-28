@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: A command-line tool for searching files for a regex pattern
+webpage: https://github.com/BurntSushi/ripgrep
+version: 14.1.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/ripgrep-14.1.0-android-aarch64.tar.xz
+bin-sha: 208be081b459a69d6b780974b3e394e2eac216e5f287fe718cadd4e4b5cd17f7

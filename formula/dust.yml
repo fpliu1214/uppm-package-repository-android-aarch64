@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: A more intuitive version of du(1) in rust
+webpage: https://github.com/bootandy/dust
+version: 1.0.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/dust-1.0.0-android-aarch64.tar.xz
+bin-sha: 4fa5b18a036cb3e5b2d0b5b14db5dc80df9b05a9e77795bf32b8fdca74fc05c1

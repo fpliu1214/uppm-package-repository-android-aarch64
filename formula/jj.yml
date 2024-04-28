@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: A git-compatible distributed version control system
+webpage: https://github.com/martinvonz/jj
+version: 0.16.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/jj-0.16.0-android-aarch64.tar.xz
+bin-sha: 30eb14be1169e3bfb8ee3fe409f345acc72ab5215a8348a4563201372eb1a892

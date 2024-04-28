@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: Maintained ctags implementation
+webpage: https://github.com/universal-ctags/ctags
+version: 2024.04.28
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/uctags-2024.04.28-android-aarch64.tar.xz
+bin-sha: a88f3b766b3845b0df533b45bec7c66bfea7913363794b119c8aa39622992b33

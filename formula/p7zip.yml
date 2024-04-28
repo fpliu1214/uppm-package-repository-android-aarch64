@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: 7-Zip (high compression file archiver) implementation
+webpage: https://github.com/jinfeihan57/p7zip
+version: 17.05
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/p7zip-17.05-android-aarch64.tar.xz
+bin-sha: 09b24dea7ea87500e2475d0eadadea5953b9ffbf6a8437db91908b820bd6d717

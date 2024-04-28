@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: The minimal, blazing-fast, and infinitely customizable prompt for any shell
+webpage: https://starship.rs
+version: 1.18.2
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/starship-1.18.2-android-aarch64.tar.xz
+bin-sha: c5638f5c833ccca27ffeeebbff402c04b388d5ce8eba474c736555af6ba3de55

@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: utilities provided by libxml2
+webpage: http://xmlsoft.org
+version: 2.12.6
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/libxml2-utils-2.12.6-android-aarch64.tar.xz
+bin-sha: f267a6903a0765634353ef7fc6244789da596b4d6271fe9fb13a60a220732cd5

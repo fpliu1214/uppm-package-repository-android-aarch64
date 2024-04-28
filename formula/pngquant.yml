@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: PNG image optimizing utility
+webpage: https://pngquant.org
+version: 3.0.3.crate
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/pngquant-3.0.3.crate-android-aarch64.tar.xz
+bin-sha: 69c72ed7eb75cd216f3af61f0dafca0755918d743d8ba96b8572cdcb1815dc10

@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: A command-line tool to analyze packet(TCP/IP)
+webpage: https://www.tcpdump.org/
+version: 4.99.4
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/tcpdump-4.99.4-android-aarch64.tar.xz
+bin-sha: e726e755d846b9776e09bd585ff36e7eba8d38f372b6dad2c1d4bd1f7299eafb

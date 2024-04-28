@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: A very fast implementation of tldr in Rust
+webpage: https://github.com/dbrgn/tealdeer
+version: 1.6.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/tealdeer-1.6.1-android-aarch64.tar.xz
+bin-sha: cb2a2dee9f1045d99224c127e3d5de5ce4f4df2434c2ab9d676253946aa8184d

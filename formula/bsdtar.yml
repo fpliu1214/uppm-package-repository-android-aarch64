@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: BSD tar
+webpage: https://www.libarchive.org/
+version: 3.7.3
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/bsdtar-3.7.3-android-aarch64.tar.xz
+bin-sha: a565e4b2a71b51b0592d6eba563e820a882605c8a468f2fc4b3a690aca1e698a

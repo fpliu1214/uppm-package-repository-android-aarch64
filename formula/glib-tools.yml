@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: A collection of tools for glib
+webpage: https://developer.gnome.org/glib
+version: 2.80.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/glib-tools-2.80.0-android-aarch64.tar.xz
+bin-sha: 42b8fce476c25a2f9d0d2292694e7cc8c2adc7c043acb56f0e07374692ad62f8

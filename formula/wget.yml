@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: A free, open-source, command-line tool that is used to download files from web servers using HTTP, HTTPS, FTP protocols
+webpage: https://www.gnu.org/software/wget
+version: 1.24.5
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/wget-1.24.5-android-aarch64.tar.xz
+bin-sha: fd9601f35a295d9fcd539c55e0969d88adef4e82ab92db7816c6c53d9b6503f2

@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: base16 encoder and decoder
+webpage: https://github.com/leleliu008/C-examples
+version: 2024.04.28
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/base16-2024.04.28-android-aarch64.tar.xz
+bin-sha: 5f30df364e9156c973198023215db7a35bb87ddd13ceb8c3326ae82c4365d187

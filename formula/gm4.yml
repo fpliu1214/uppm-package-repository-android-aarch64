@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: Macro processing language
+webpage: https://www.gnu.org/software/m4
+version: 1.4.19
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/gm4-1.4.19-android-aarch64.tar.xz
+bin-sha: b6ca0b26ddf80e17e68fb2887c7426d3b4a67a8943e6da46b768f415946248d4

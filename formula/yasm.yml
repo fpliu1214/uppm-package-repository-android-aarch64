@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: Yet another assembler, a complete reimplementation of NASM
+webpage: https://yasm.tortall.net
+version: 1.3.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/yasm-1.3.0-android-aarch64.tar.xz
+bin-sha: 8fdba213ee6ca607151e7baa59b068d345ed360cb731927b8b22be975b1631b1

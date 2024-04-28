@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: Utility that provides fast incremental file transfer
+webpage: https://rsync.samba.org/
+version: 3.3.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/rsync-3.3.0-android-aarch64.tar.xz
+bin-sha: 3bf0fce7a5fd4846756c5620ce859a90673090a188ad912d6c6dcf3c701fdbe0

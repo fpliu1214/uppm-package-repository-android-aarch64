@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: Get a file from an HTTP, HTTPS or FTP server
+webpage: https://curl.haxx.se/
+version: 8.7.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/curl-8.7.1-android-aarch64.tar.xz
+bin-sha: ebceebfe01dd98ab3f0df63409470861014fdc6219a91ee78525a6b3562d4e17

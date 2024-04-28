@@ -1,5 +1,5 @@
-summary: $PACKAGE_SUMMARY
-webpage: $PACKAGE_WEB_URL
-version: $PACKAGE_VERSION
-bin-url: $PACKAGE_BIN_URL
-bin-sha: $PACKAGE_BIN_SHA
+summary: MP3 player
+webpage: https://www.mpg123.de/
+version: 1.32.6
+bin-url: https://github.com/leleliu008/uppm-package-repository-android-aarch64/releases/download/2024.04.28/mpg123-1.32.6-android-aarch64.tar.xz
+bin-sha: 047b5600c6ade712a05b9a9fb4991e5b5c3d5dec90fc734c0b2e24ef40b1d4b5
