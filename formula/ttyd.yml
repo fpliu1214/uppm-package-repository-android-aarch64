@@ -1,5 +1,5 @@
 summary: A simple command-line tool for sharing terminal over the web
 webpage: https://tsl0922.github.io/ttyd
 version: 1.7.7
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.28/ttyd-1.7.7-android-aarch64.tar.xz
-bin-sha: 97505a40b8513afa0719ec8290decc949a7ed374ac67762a15b2d0c39d421e78
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/ttyd-1.7.7-android-aarch64.tar.xz
+bin-sha: 52fe50b9a9e8f8295801e81fff5f2d105d3ae72981cd74cf34dafb82a9b6bf29

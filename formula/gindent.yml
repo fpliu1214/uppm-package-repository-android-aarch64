@@ -1,5 +1,5 @@
 summary: C code prettifier
 webpage: https://www.gnu.org/software/indent/
 version: 2.2.13
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.28/gindent-2.2.13-android-aarch64.tar.xz
-bin-sha: ca9dfc009e4a3b865217167848ff8bb6202d3b7ef836c5f1851d66d5e81d145b
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/gindent-2.2.13-android-aarch64.tar.xz
+bin-sha: c67a4359d8999c4c2f93d9a360a106e7cbcb5fffc8680e543cc363bcaad6bc8b

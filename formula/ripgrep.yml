@@ -1,5 +1,5 @@
 summary: A command-line tool for searching files for a regex pattern
 webpage: https://github.com/BurntSushi/ripgrep
 version: 14.1.0
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.28/ripgrep-14.1.0-android-aarch64.tar.xz
-bin-sha: ca1c28c602bf292d157454827700372935ec1e130ebc597cfa692e4f808914d3
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/ripgrep-14.1.0-android-aarch64.tar.xz
+bin-sha: 57a48795d437c72d3297851a64bd8ffc2b09b931b20f6a7bf76ae9e74f48c2cc

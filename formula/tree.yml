@@ -1,5 +1,5 @@
 summary: Display directories as trees (with optional color/HTML output)
 webpage: http://mama.indstate.edu/users/ice/tree
 version: 2.1.1
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.28/tree-2.1.1-android-aarch64.tar.xz
-bin-sha: 7573f4fef3fb958143992883c34ffad81cf51f1a5ba08521a064922c32191089
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/tree-2.1.1-android-aarch64.tar.xz
+bin-sha: 9ec83ec3f657c2e3a80e9feb9e389d98f27c5c5265fbb6dc5e3f52401a46d5bf

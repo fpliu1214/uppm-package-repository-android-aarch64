@@ -1,5 +1,5 @@
 summary: Perfect hash function generator
 webpage: https://www.gnu.org/software/gperf
 version: 3.1
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.28/gperf-3.1-android-aarch64.tar.xz
-bin-sha: bfce20b808907be68a57f5decac106e221a69c4b5d9ed7583860d412653af5c2
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/gperf-3.1-android-aarch64.tar.xz
+bin-sha: e32cc1ba592add38b1426b26165204da9d3610641e2829c71620351a2d94a987

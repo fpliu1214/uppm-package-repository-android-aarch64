@@ -1,5 +1,5 @@
 summary: A package of several programs related to finding files
 webpage: https://www.gnu.org/software/findutils
 version: 4.9.0
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.28/findutils-4.9.0-android-aarch64.tar.xz
-bin-sha: 8a3c7fd74d54b0e09da8d7d373cfb109d3d8e6d4953b90f653c669e53faf5981
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/findutils-4.9.0-android-aarch64.tar.xz
+bin-sha: d4884c09a123f97f1c5e7d84bebc7116e8bc6a28a1dc9fc9eb3dc2ac1ebb745a

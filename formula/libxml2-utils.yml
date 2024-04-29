@@ -1,5 +1,5 @@
 summary: utilities provided by libxml2
 webpage: http://xmlsoft.org
 version: 2.12.6
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.28/libxml2-utils-2.12.6-android-aarch64.tar.xz
-bin-sha: eb14304a672c4b74d37e92c71a2a8a2ad69987750c7bb6a00d0532158e48e56d
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/libxml2-utils-2.12.6-android-aarch64.tar.xz
+bin-sha: 88c38fc3be9bda5b5e995ac91f662a8cd9c11bb0ba6b7df850c993834b70ea45

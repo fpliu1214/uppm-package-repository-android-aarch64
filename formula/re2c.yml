@@ -1,5 +1,5 @@
 summary: Generate C-based recognizers from regular expressions
 webpage: https://re2c.org/
 version: 3.1
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.28/re2c-3.1-android-aarch64.tar.xz
-bin-sha: 2cdb6c6d42f7f727ec3666a3a14ef8695806d6f76d50dc5d452e80a713020d60
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/re2c-3.1-android-aarch64.tar.xz
+bin-sha: 4dc130a3625cee21b167d8313b2be73c3fd8cc599a79ac26d02afd9a044ee3ae
