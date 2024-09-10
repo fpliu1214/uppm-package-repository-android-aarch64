@@ -1,5 +1,5 @@
 summary: Encode and decode base64 files
 webpage: https://www.fourmilab.ch/webtools/base64/
 version: 1.5
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/base64-1.5-android-aarch64.tar.xz
-bin-sha: 4c629f83b63b3a37f96b3d604d699b8ce1124381f612acbea434e6d456145b91
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/base64-1.5-android-aarch64.tar.xz
+bin-sha: 4c0cc35826390a37567f08395841288eecc7e9902c08abe7a8d5fbc862b2d6f1

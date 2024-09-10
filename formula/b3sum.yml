@@ -1,5 +1,5 @@
 summary: A command line utility for calculating BLAKE3 hashes
 webpage: https://github.com/BLAKE3-team/BLAKE3
 version: 1.5.1
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/b3sum-1.5.1-android-aarch64.tar.xz
-bin-sha: d9b86657c744097eead27e0440658ce2088e51f058e722735ef34c21d0f729a2
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/b3sum-1.5.1-android-aarch64.tar.xz
+bin-sha: 62679d4daa05cac9b8699e65002bf04c70223313ed991000fc81e8fde2a577ad

@@ -1,0 +1,5 @@
+summary: Cross platform file encryption utility using blowfish
+webpage: https://bcrypt.sourceforge.io
+version: 1.1
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/bcrypt-1.1-android-aarch64.tar.xz
+bin-sha: ec26bca65f7f5421c8c38dee6042b25e4b20981e219ec820aa9ca588f973c188

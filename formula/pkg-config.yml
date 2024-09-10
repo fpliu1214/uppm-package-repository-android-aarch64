@@ -1,5 +1,5 @@
 summary: Manage compile and link flags for libraries
 webpage: https://freedesktop.org/wiki/Software/pkg-config
 version: 0.29.2
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/pkg-config-0.29.2-android-aarch64.tar.xz
-bin-sha: 1cac3886d8cad96115e31b988d9a0032daa945ddc65d050169e15f865c90e353
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/pkg-config-0.29.2-android-aarch64.tar.xz
+bin-sha: 4987e78fa6e2ac90a843654b6926cff536d9cf2229c54398cd518c414eb81c0e

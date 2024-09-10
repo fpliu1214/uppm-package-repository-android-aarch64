@@ -1,5 +1,5 @@
 summary: BSD tar
 webpage: https://www.libarchive.org/
-version: 3.7.3
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/bsdtar-3.7.3-android-aarch64.tar.xz
-bin-sha: dcdf356341b4aaf2c3e6778481ec98ffaff372450b98d721df73e54c69f1d477
+version: 3.7.4
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/bsdtar-3.7.4-android-aarch64.tar.xz
+bin-sha: 63842abb2084b402d40bfd8d786c7f7e85e98d6b42891e187c0949fe5d5a47b0

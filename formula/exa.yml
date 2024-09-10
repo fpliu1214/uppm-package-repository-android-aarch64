@@ -1,5 +1,5 @@
 summary: Modern replacement for ls(1)
 webpage: https://the.exa.website
 version: 0.10.1
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/exa-0.10.1-android-aarch64.tar.xz
-bin-sha: 3e153956c92bbb9d456dad17afe3ee9f03eaf7193c1aa1ab6139f33867b41491
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/exa-0.10.1-android-aarch64.tar.xz
+bin-sha: 450e8a11f49373d4665e9c922ebe24f7af96f1f57c482dc92b59fd4d87473c3a

@@ -1,5 +1,5 @@
 summary: Utility for directing compilation
 webpage: https://www.gnu.org/software/make
 version: 4.4.1
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/gmake-4.4.1-android-aarch64.tar.xz
-bin-sha: 16d1fe3054b6016ec6e1a0cb9ad531b92d4383c1f1e3edbba33881dd445899ad
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/gmake-4.4.1-android-aarch64.tar.xz
+bin-sha: 2e895b90a790de8ff91d8b7606b541a1fb389c242225277e6ad58a01335c6d08

@@ -1,0 +1,5 @@
+summary: PEG grammar optimizer and formatter. Supports any grammar supported by PackCC parser generator.
+webpage: https://github.com/dolik-rce/pegof
+version: 2024.09.10
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/pegof-2024.09.10-android-aarch64.tar.xz
+bin-sha: b206d82bb4d5e1fa2e13b397315a5b2a4794944a63587a5ceab98e0d819d28eb
