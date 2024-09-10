@@ -4,76 +4,118 @@ on:
   workflow_dispatch
 
 jobs:
-  build:
+
+  build1:
     strategy:
       fail-fast: false
       matrix:
-        pkg: [aria2, axel, base16, base64, bash, bat, bison, bc, bsdtar, bzip2, b3sum, cargo-c, cmake, coreutils, curl, darkhttpd, dua, dufs, dust, diffutils, dog, dos2unix, dot_static, ed, exa, fd, figlet, file, findutils, flex, gawk, gettext-tools, gindent, git, glib-tools, gm4, gmake, gn, gnupg, golang, gperf, grep, grex, gsed, gtar, gzip, hyperfine, jj, jq, libxml2-utils, lolcat, lsd, lz4, lzip, mediainfo, mpg123, nasm, ninja, nushell, openssl, patch, patchelf, pigz, p7zip, pkg-config, pkgconf, pngquant, putty, qpdf, qrencode, quickjs, re2c, resvg, ripgrep, rsync, rtmpdump, sqlite3, starship, svn-lite, swig, sysinfo, tcpdump, tealdeer, tlrc, tig, tmux, tree, ttyd, uctags, unrar, uppm, util-linux, wget, xsltproc, xxd, xz, yasm, zopfli, zstd, zoxide]
+        pkg: [adig, ag, alass, apkeep, aria2, arping, awk, axel, b3sum, base16, base64, bash, basis_universal, bat, bc, bcrypt, bgrep, binaryen, bind, bison, bk, boxes, broot, brotli, bsdtar, bullet, busybox, byacc, bzip2, cargo-c, ccache, cflow, chezmoi, choose, clog, cmake, cmark, cmatrix, coreutils, cotp, cpio, crosstool-ng, crowbook, curl, d2, darkhttpd, dash, dav1d, delta, diffutils, dns2tcp, dnsmap, dog, doggo, dos2unix, dot_static, doxygen, dua, dufs, duktape, dust, easyutils, ed, epsilon, erdtree, exa, exiv2, eza, fcp, fd, fff, figlet, file, findent, findutils, flatc, flex, flock, fortune, fselect, fsmon, fswatch, fzy, gawk, gbt, gdu, getopt, gettext-tools, gettext, gh, gif, gindent, git-cliff, git, gitui, gitwatch, glib-tools, glslang, gm4, gmake, gn, gnu-barcode, gnu-which, gnupg, go-tools, gperf, gperftools, gping, gpsim, gputils, graphicsmagick, grep, grex, gsed, gtar, gtime, gzip, halibut, helix, hexdump, hexyl, htop, hugo, hunspell, hurl, hyperfine, ideviceinstaller, ipinfo, iw, ixwebsocket, jj, jpegoptim, jq, kcp, kcptun, lame, lazygit, lcms2, lcov, less, lf, lief, lighttpd, lnd, lolcat, lrzip, lsd, lsof, luau, lunzip, lychee, lynx, lz4, lzip, lzop, mawk, mcfly, md4c, mdbook, mediainfo, minisign, mold, mpg123, mruby@3.0.0, mruby@3.2.0, nano, nasm, navi, ncdu, ndk-pkg-core, neofetch, netcat, nethogs, netpbm, nginx, ninja, nnn, nsh, nushell, openssl, p7zip, packcc, patch, patchelf, pbzip2, pcre2, pegof, pigz, pkg-config, pkgconf, plzip, png, pngcheck, pngquant, pngsplit, ppkg, procs, progress, proj, proot2, putty, pv, qpdf, qrencode, quickjs, ragel, rang, rav1e, re2c, resvg, ripgrep-all, ripgrep, rlwrap, rover, rsass, rsync, rtmpdump, rtorrent, ruff, rust-analyzer, sassc, scdoc, sd, shaderc, shc, shellharden, sl, speex, sqlite3, starship, stwolame, stylua, suricata, svn-lite, swig, sysinfo, tarlz, tcpdump, tealdeer, tectonic, tiff, tig, tinyalsa, tlrc, tmux, tokei, tree, trietool, ttyd, ttygif, ttyrec, typos, uctags, unbound, unrar, uppm]
 
     runs-on: ubuntu-latest
 
-    #container: fpliu/ndk-pkg
+    container: fpliu/ndk-pkg
 
     steps:
-      - run: curl -LO https://raw.githubusercontent.com/leleliu008/ndk-pkg/master/ndk-pkg
-      - run: chmod a+x ndk-pkg
-      - run: ./ndk-pkg setup
-      - run: ./ndk-pkg update
+      - run: /usr/bin/ndk-pkg about
+      - run: /usr/bin/ndk-pkg setup
+      - run: /usr/bin/ndk-pkg update
+      - run: /usr/bin/ndk-pkg install android-34-arm64-v8a/${{ matrix.pkg }} --static
 
-      - name: check package type
+      - name: pack
         run: |
-          if [ ${{ matrix.pkg }} = golang ] ; then
-            exit 0
-          fi
+          set -ex
 
-          if [ ${{ matrix.pkg }} = openssl ] ; then
-            sed -i 's|exe+lib|exe|' ~/.ndk-pkg/repos.d/official-core/formula/openssl.yml
-          fi
+          /usr/bin/ndk-pkg pack android-34-arm64-v8a/${{ matrix.pkg }} --exclude include/ --exclude lib/
 
-          BSYSTEM="$(./ndk-pkg info-available ${{ matrix.pkg }} bsystem)"
+          PACKAGE_FILENAME="$(ls *.tar.xz)"
 
-          if [ "$BSYSTEM" = go ] ; then
-            echo "go package can not be installed as fully statically linked executables"
-            exit 1
-          fi
+          case $PACKAGE_FILENAME in
+              *-android-aarch64.tar.xz)
+                  PACKAGE_SUMMARY="$(/usr/bin/ndk-pkg info-installed "${{ matrix.pkg }}" summary)"
+                  PACKAGE_WEB_URL="$(/usr/bin/ndk-pkg info-installed "${{ matrix.pkg }}" web-url)"
+                  PACKAGE_VERSION="$(/usr/bin/ndk-pkg info-installed "${{ matrix.pkg }}" version)"
 
-          PKGTYPE="$(./ndk-pkg info-available ${{ matrix.pkg }} pkgtype)"
+                  PACKAGE_BIN_SHA="$(sha256sum "$PACKAGE_FILENAME" | cut -d ' ' -f1)"
 
-          if [ -n "$PKGTYPE" ] && [ "$PKGTYPE" != exe ] ; then
-            echo "package type is not exe"
-            exit 1
-          fi
+                  PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
 
-      - run: ./ndk-pkg install android-34-arm64-v8a/${{ matrix.pkg }} --exe=fsle
-      - run: ./ndk-pkg pack    android-34-arm64-v8a/${{ matrix.pkg }} -o . --exclude=include --exclude=lib
-
-      - name: create formula file
-        run: |
-          PACKAGE_SUMMARY="$(./ndk-pkg info-installed android-34-arm64-v8a/${{ matrix.pkg }} summary)"
-          PACKAGE_WEB_URL="$(./ndk-pkg info-installed android-34-arm64-v8a/${{ matrix.pkg }} web-url)"
-          PACKAGE_VERSION="$(./ndk-pkg info-installed android-34-arm64-v8a/${{ matrix.pkg }} version)"
-
-          PACKAGE_BIN_SHA="$(sha256sum *.tar.xz | cut -d ' ' -f1)"
-
-          PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$(ls *.tar.xz)"
-
-          cat > ${{ matrix.pkg }}.yml <<EOF
+                  cat > {{ matrix.pkg }}.yml <<EOF
           summary: $PACKAGE_SUMMARY
           webpage: $PACKAGE_WEB_URL
           version: $PACKAGE_VERSION
           bin-url: $PACKAGE_BIN_URL
           bin-sha: $PACKAGE_BIN_SHA
           EOF
+                  ;;
+              *)
+                  touch a.tar.xz
+                  touch a.yml
+          esac
 
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.pkg }}
           path: |
-            ${{ matrix.pkg }}-*.tar.xz
-            ${{ matrix.pkg }}.yml
+            ./*.tar.xz
+            ./*.yml
+
+  build2:
+    strategy:
+      fail-fast: false
+      matrix:
+        pkg: [uppm@0.15.2, uppm@0.15.3, uppm@0.15.4, usbmuxd, util-linux, vim, wabt, wasm3, wasmtime, watchexec, wavpack, webp, websocat, wget, whois, x264, x265, xh, xmlstarlet, xmlutils, xmlwf, xorriso, xsltproc, xxd, xz, yasm, zip, zola, zopfli, zoxide, zsh, zstd, zsync]
+
+    runs-on: ubuntu-latest
+
+    container: fpliu/ndk-pkg
+
+    steps:
+      - run: /usr/bin/ndk-pkg about
+      - run: /usr/bin/ndk-pkg setup
+      - run: /usr/bin/ndk-pkg update
+      - run: /usr/bin/ndk-pkg install android-34-arm64-v8a/${{ matrix.pkg }} --static
+
+      - name: pack
+        run: |
+          set -ex
+
+          /usr/bin/ndk-pkg pack android-34-arm64-v8a/${{ matrix.pkg }} --exclude include/ --exclude lib/
+
+          PACKAGE_FILENAME="$(ls *.tar.xz)"
+
+          case $PACKAGE_FILENAME in
+              *-android-aarch64.tar.xz)
+                  PACKAGE_SUMMARY="$(/usr/bin/ndk-pkg info-installed "${{ matrix.pkg }}" summary)"
+                  PACKAGE_WEB_URL="$(/usr/bin/ndk-pkg info-installed "${{ matrix.pkg }}" web-url)"
+                  PACKAGE_VERSION="$(/usr/bin/ndk-pkg info-installed "${{ matrix.pkg }}" version)"
+
+                  PACKAGE_BIN_SHA="$(sha256sum "$PACKAGE_FILENAME" | cut -d ' ' -f1)"
+
+                  PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
+
+                  cat > {{ matrix.pkg }}.yml <<EOF
+          summary: $PACKAGE_SUMMARY
+          webpage: $PACKAGE_WEB_URL
+          version: $PACKAGE_VERSION
+          bin-url: $PACKAGE_BIN_URL
+          bin-sha: $PACKAGE_BIN_SHA
+          EOF
+                  ;;
+              *)
+                  touch a.tar.xz
+                  touch a.yml
+          esac
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.pkg }}
+          path: |
+            ./*.tar.xz
+            ./*.yml
 
   publish:
-    needs: build
+    needs: [build1, build2]
+
     runs-on: ubuntu-latest
 
     env:
@@ -112,7 +154,7 @@ jobs:
           cat > notes.md <<EOF
           these packages are created by [ndk-pkg](https://github.com/leleliu008/ndk-pkg).
 
-          these packages are statically linked.
+          these packages are fully statically linked.
 
           these packages are relocatable which means that you can install them to anywhere.
 
@@ -138,7 +180,13 @@ jobs:
           \`\`\`
           EOF
 
-          gh release create "$TAGNAME" *.tar.xz sha256sums.txt --title "$TAGNAME" --notes-file notes.md
+          gh release create "$TAGNAME" sha256sums.txt --title "$TAGNAME" --notes-file notes.md
+
+          for f in *.tar.xz
+          do
+            sleep 1s
+            gh release upload "$TAGNAME" "$f"
+          done
 
           git config --global user.name  "leleliu008"
           git config --global user.email "leleliu008@gmail.com"
