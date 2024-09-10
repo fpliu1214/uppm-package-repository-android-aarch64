@@ -119,7 +119,7 @@ do
         run: |
           set -ex
 
-          /usr/bin/ndk-pkg pack android-34-arm64-v8a/\${{ matrix.pkg }}
+          /usr/bin/ndk-pkg pack android-34-arm64-v8a/\${{ matrix.pkg }} --exclude include/ --exclude lib/
 
           PACKAGE_FILENAME="\$(ls *.tar.xz)"
 
