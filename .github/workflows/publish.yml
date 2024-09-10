@@ -135,6 +135,9 @@ jobs:
       - run: |
           set -ex
 
+          rm a.yml
+          rm a.tar.xz
+
           TAGNAME="$(date +%Y.%m.%d)"
 
           sed -i "s|@TAGNAME@|$TAGNAME|" *.yml
