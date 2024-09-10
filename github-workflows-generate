@@ -133,7 +133,7 @@ do
 
                   PACKAGE_BIN_URL="https://github.com/\${{ github.repository }}/releases/download/@TAGNAME@/\$PACKAGE_FILENAME"
 
-                  cat > {{ matrix.pkg }}.yml <<EOF
+                  cat > \${{ matrix.pkg }}.yml <<EOF
           summary: \$PACKAGE_SUMMARY
           webpage: \$PACKAGE_WEB_URL
           version: \$PACKAGE_VERSION
