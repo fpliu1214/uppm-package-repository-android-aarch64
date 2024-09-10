@@ -125,9 +125,9 @@ do
 
           case \$PACKAGE_FILENAME in
               *-android-aarch64.tar.xz)
-                  PACKAGE_SUMMARY="\$(/usr/bin/ndk-pkg info-installed "\${{ matrix.pkg }}" summary)"
-                  PACKAGE_WEB_URL="\$(/usr/bin/ndk-pkg info-installed "\${{ matrix.pkg }}" web-url)"
-                  PACKAGE_VERSION="\$(/usr/bin/ndk-pkg info-installed "\${{ matrix.pkg }}" version)"
+                  PACKAGE_SUMMARY="\$(/usr/bin/ndk-pkg info-installed android-34-arm64-v8a/\${{ matrix.pkg }} summary)"
+                  PACKAGE_WEB_URL="\$(/usr/bin/ndk-pkg info-installed android-34-arm64-v8a/\${{ matrix.pkg }} web-url)"
+                  PACKAGE_VERSION="\$(/usr/bin/ndk-pkg info-installed android-34-arm64-v8a/\${{ matrix.pkg }} version)"
 
                   PACKAGE_BIN_SHA="\$(sha256sum "\$PACKAGE_FILENAME" | cut -d ' ' -f1)"
 
