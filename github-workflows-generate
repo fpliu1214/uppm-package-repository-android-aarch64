@@ -14,6 +14,11 @@ unset PKGS
 
 for f in *.yml
 do
+    unset PKGNAME
+    unset PKGTYPE
+    unset BSYSTEM
+    unset DOBUILD
+
     PKGTYPE="$(sed -n '/^pkgtype:/p' "$f" | cut -c10-)"
 
     if [ -z "$PKGTYPE" ] ; then
@@ -29,7 +34,7 @@ do
                 BSYSTEM="$(sed -n '/^bsystem:/p' "$f" | cut -c10-)"
 
                 if [ -z "$BSYSTEM" ] ; then
-                    DOBUILD="$(sed -n '/^install:/p' "$f" | cut -c10-)"
+                    DOBUILD="$(yq '.install | select(. != null)' "$f")"
 
                     if [ -n "$DOBUILD" ] ; then
                         for FirstWordOfLineInInstallActions in $(printf '%s\n' "$DOBUILD" | sed 's|^[[:space:]]*||' | cut -d ' ' -f1)
