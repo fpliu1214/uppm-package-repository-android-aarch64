@@ -110,6 +110,10 @@ do
     container: fpliu/ndk-pkg
 
     steps:
+      - run: curl -LO https://raw.githubusercontent.com/leleliu008/ndk-pkg/master/ndk-pkg
+      - run: chmod a+x ndk-pkg
+      - run: mv ndk-pkg /usr/bin/ndk-pkg
+
       - run: /usr/bin/ndk-pkg about
       - run: /usr/bin/ndk-pkg setup
       - run: /usr/bin/ndk-pkg update
