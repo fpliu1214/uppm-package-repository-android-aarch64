@@ -1,5 +1,5 @@
 summary: A free and open source distributed version control system with speed and efficiency
 webpage: https://git-scm.com/
 version: 2.45.2
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/git-2.45.2-android-aarch64.tar.xz
-bin-sha: 9c714b4906a531dde49fabbca4877099d31dc331b0403234df19aa94f5edde56
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/git-2.45.2-android-aarch64.tar.xz
+bin-sha: c2b51b5f9a4233bedfe09984def00ac3281eae8b3636042966ade55e0b2fa1f4

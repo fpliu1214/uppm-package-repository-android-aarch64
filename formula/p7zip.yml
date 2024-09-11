@@ -1,5 +1,5 @@
 summary: 7-Zip (high compression file archiver) implementation
-webpage: https://github.com/jinfeihan57/p7zip
+webpage: https://github.com/p7zip-project/p7zip
 version: 17.05
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/p7zip-17.05-android-aarch64.tar.xz
-bin-sha: 9b11215992e36157af435a04e150028edb3d386637c8af18cae7a057d08f3f09
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/p7zip-17.05-android-aarch64.tar.xz
+bin-sha: 1396d8a2655598984ae72aa9e474be3cefa4e494a78b49a8964316e8d8c184e2

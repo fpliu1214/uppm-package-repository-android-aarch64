@@ -1,5 +1,5 @@
 summary: base16 encoder and decoder
 webpage: https://github.com/leleliu008/C-examples
-version: 2024.09.10
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/base16-2024.09.10-android-aarch64.tar.xz
-bin-sha: 10cab19263f63cf6ab75dc825f9d46b3b3ffc84a66a2450a6e44e373f97e270a
+version: 2024.09.11
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/base16-2024.09.11-android-aarch64.tar.xz
+bin-sha: 11614f056a5ac4d43192c28fff16de2158f444d6886c79af3447113d7092b884

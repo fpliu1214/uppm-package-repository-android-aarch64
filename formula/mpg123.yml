@@ -1,5 +1,5 @@
 summary: MP3 player
 webpage: https://www.mpg123.de/
 version: 1.32.6
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.04.29/mpg123-1.32.6-android-aarch64.tar.xz
-bin-sha: 52feb5ecb2f279ffbc738bd8a989ace099c207c5a084aa8a6550234f7989f402
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/mpg123-1.32.6-android-aarch64.tar.xz
+bin-sha: f411ac26ae5cb932cf341f15f7aae94273a70e32df9a3428c19541a36cafcaaa

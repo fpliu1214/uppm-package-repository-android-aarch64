@@ -1,5 +1,5 @@
 summary: GNU implementation of the famous stream editor
 webpage: https://www.gnu.org/software/sed
 version: 4.9
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/gsed-4.9-android-aarch64.tar.xz
-bin-sha: 52fa9b2ab8bc5c6d59bdb5f1d827585759c489e9021215c6727f785719ac0759
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/gsed-4.9-android-aarch64.tar.xz
+bin-sha: cc61cf5ac4743384905cd0d2938d90dc5bdf6caf2fbbc42b603220ad4d927f11

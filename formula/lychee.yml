@@ -1,5 +1,5 @@
 summary: A fast, async, resource-friendly link checker
 webpage: https://github.com/lycheeverse/lychee
 version: 0.15.1
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/lychee-0.15.1-android-aarch64.tar.xz
-bin-sha: 7be9bd70cfcef740f7b2fb4f05dc9aefd26c8c971002b9d7c63b2c06d5a51a8a
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/lychee-0.15.1-android-aarch64.tar.xz
+bin-sha: efa5de9b8fdd3d545418302c2c2a462948ff3ab493285aaaef36ad432a99a042

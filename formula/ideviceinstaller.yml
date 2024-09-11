@@ -1,5 +1,5 @@
 summary: A command-line tool to manage apps on iOS devices
 webpage: https://www.libimobiledevice.org
 version: 1.1.1
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/ideviceinstaller-1.1.1-android-aarch64.tar.xz
-bin-sha: 0e04cba90ac2968457074ed0f3bd49e38984d0e6ed396d55717ba9c3ee4ab4ef
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/ideviceinstaller-1.1.1-android-aarch64.tar.xz
+bin-sha: fc3e70d7a69b4c8091f3ad54a85bf5df201fa98ea19347dac1cfb99f96d7cedf

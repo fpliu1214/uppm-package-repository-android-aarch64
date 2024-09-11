@@ -1,5 +1,5 @@
 summary: Multi-threaded file-tree visualizer and disk usage analyzer
 webpage: https://github.com/solidiquis/erdtree
 version: 3.1.2
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/erdtree-3.1.2-android-aarch64.tar.xz
-bin-sha: 5d8d2883a489b099ba1c07a7486684bc39e3475b276da7be3bce25c0390895ca
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/erdtree-3.1.2-android-aarch64.tar.xz
+bin-sha: 71bd28a88437003d39a291680e2e39d43259b86d4cfae1445718244461e8309f

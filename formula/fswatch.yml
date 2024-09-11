@@ -1,0 +1,5 @@
+summary: Monitor a directory for changes and run a shell command
+webpage: https://github.com/emcrisostomo/fswatch
+version: 1.17.1
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/fswatch-1.17.1-android-aarch64.tar.xz
+bin-sha: 89f57deba871429ab5dbf6211211f85b62e2674fdb1f23df7d383b4948e5e10d

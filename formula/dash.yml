@@ -1,5 +1,5 @@
 summary: A POSIX-compliant implementation of /bin/sh that aims to be as small as possible
 webpage: http://gondor.apana.org.au/~herbert/dash
 version: 0.5.12
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/dash-0.5.12-android-aarch64.tar.xz
-bin-sha: ffd109736de068a3a8b5af5afd57b49ab3ed27a9e891ed75990c3a251fbba78f
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/dash-0.5.12-android-aarch64.tar.xz
+bin-sha: b88df26e69ade301bdc4e06599b45b54ed8d0efaba7572c3fa4325172e9a44c5

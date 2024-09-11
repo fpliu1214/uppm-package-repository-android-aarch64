@@ -1,5 +1,5 @@
 summary: Parallel bzip2
 webpage: http://compression.great-site.net/pbzip2/
 version: 1.1.13
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/pbzip2-1.1.13-android-aarch64.tar.xz
-bin-sha: c35fff923982b8e67571d1f015f90d4ae335db586c60e4480bd2a84455ac3873
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/pbzip2-1.1.13-android-aarch64.tar.xz
+bin-sha: 1fa82ebe2caa6fd9e358d356a2aa829c1f8cc376e1f29e8f976d02f0d43cd968

@@ -1,0 +1,5 @@
+summary: A free library for encoding video streams into the H.264/MPEG-4 AVC compression format
+webpage: https://www.videolan.org/developers/x264.html
+version: r3108
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/x264-r3108-android-aarch64.tar.xz
+bin-sha: 6aa2db714c4da4ff8430ec47c70dc55e909cde47b3285a4beba075b37e067c9a

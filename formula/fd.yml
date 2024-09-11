@@ -1,5 +1,5 @@
 summary: A simple, fast and user-friendly alternative to find(1)
 webpage: https://github.com/sharkdp/fd
 version: 10.1.0
-bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.10/fd-10.1.0-android-aarch64.tar.xz
-bin-sha: cf6a2728be86dbd2601ddd2c012d3828701f0493ef3f1e1d21f2554b6f83c676
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/fd-10.1.0-android-aarch64.tar.xz
+bin-sha: 5355c9cb2f459778ac0fa9deda7f46abc29f4364f7f4210697d9456cad032cee
