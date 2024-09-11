@@ -2,4 +2,4 @@ summary: TIFF library and utilities
 webpage: https://libtiff.gitlab.io/libtiff
 version: 4.6.0
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/tiff-4.6.0-android-aarch64.tar.xz
-bin-sha: 732501cae01f8c378df6f94094bb0b51202bb79762fce208d93b4bec269aad70
+bin-sha: ba6b01775638b2b1f67c03ae1103136705fb6779a9a325ed32ee91fb8221ab48

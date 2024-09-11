@@ -2,4 +2,4 @@ summary: Fast static site generator in a single binary with everything built-in
 webpage: https://www.getzola.org/
 version: 0.19.2
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/zola-0.19.2-android-aarch64.tar.xz
-bin-sha: 36df1f51276efb48cc6f34c243c1f1d50d8738c77e175f3497ee13a16f1a1801
+bin-sha: f6e47931c142b6e2eaf5f2feaaba9b32991c9cca9a40bdc4d3ff99f246be183b

@@ -2,4 +2,4 @@ summary: Cross-platform make
 webpage: https://www.cmake.org/
 version: 3.30.3
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/cmake-3.30.3-android-aarch64.tar.xz
-bin-sha: 488a00deb22e60063bb8e7bbcc3b4cfec10fdd1d12da2384fa2efd3ec6a2a9e8
+bin-sha: 2cb7fd8e6111245fedd27690afd2a42c71fb6c8eef8cef89156aeccc0241cf64

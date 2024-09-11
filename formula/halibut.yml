@@ -2,4 +2,4 @@ summary: Yet another free document preparation system
 webpage: https://www.chiark.greenend.org.uk/~sgtatham/halibut/
 version: 1.3
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/halibut-1.3-android-aarch64.tar.xz
-bin-sha: 107493d47a082fbaf9acf05bc943a3ef333e8edc675befda4717e5f822a86564
+bin-sha: c15a51975f21c604743e6b916eb8d0c1788ac2fc68e8fef197be49f3137a9cac

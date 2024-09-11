@@ -2,4 +2,4 @@ summary: Get a file from an HTTP, HTTPS or FTP server
 webpage: https://curl.haxx.se/
 version: 8.8.0
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/curl-8.8.0-android-aarch64.tar.xz
-bin-sha: cde88c2fcfdded7600178cc0ca60e3766f923bc5c16fd75cb5cdb34afe395219
+bin-sha: a29bbeef8ea903f35aa3a10385458efcb0e68768127528869cc52d0f0d916415

@@ -2,4 +2,4 @@ summary: C XSLT library for GNOME
 webpage: http://xmlsoft.org/XSLT
 version: 1.1.39
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/xsltproc-1.1.39-android-aarch64.tar.xz
-bin-sha: bcb2aef7a909d871608c8b255a371dbadc89561e553925beb89c69e5a4973557
+bin-sha: fd7fba9e665cabf0f1de6c2f92c597d1f8c7ccf07e8fe26418e25d9e651489ed

@@ -2,4 +2,4 @@ summary: PEG grammar optimizer and formatter. Supports any grammar supported by 
 webpage: https://github.com/dolik-rce/pegof
 version: 2024.09.11
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/pegof-2024.09.11-android-aarch64.tar.xz
-bin-sha: f4d3b386d9c83f6b68c4a4cb862b1892353afb02bad3cd445f333c9d542ed6bb
+bin-sha: 309b6e53fe168f67fd02bccb1a257175daa9db729ab02881dcacc914b7e32e37

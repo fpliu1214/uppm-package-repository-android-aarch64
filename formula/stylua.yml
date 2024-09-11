@@ -2,4 +2,4 @@ summary: An opinionated Lua code formatter
 webpage: https://github.com/JohnnyMorganz/StyLua
 version: 0.20.0
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/stylua-0.20.0-android-aarch64.tar.xz
-bin-sha: 802601044d7a592b1bec89e8f69d89024c768a16084ee863236b721e60d88591
+bin-sha: f2162116e7bcc49d053595d1f78903659be4c7db7f02bbead91a2e0596fea42e

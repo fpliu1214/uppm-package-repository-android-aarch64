@@ -2,4 +2,4 @@ summary: GNU netcat is a GNU rewrite of the classic netcat (aka nc) utility for 
 webpage: https://netcat.sourceforge.net/
 version: 0.7.1
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/netcat-0.7.1-android-aarch64.tar.xz
-bin-sha: c8afa2e0adbae72679491c70a49d71a2a637056794f2b322af5aa13d13adf609
+bin-sha: c51cf6cbf36b3076f81444f9b430e171d66bc906bc9efd75dccbab68e8989e5a

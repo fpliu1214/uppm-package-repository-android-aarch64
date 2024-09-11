@@ -2,4 +2,4 @@ summary: Tiny, lightning fast, feature-packed file manager
 webpage: https://github.com/jarun/nnn
 version: 4.9
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/nnn-4.9-android-aarch64.tar.xz
-bin-sha: 66cd74233230ccad8c6eb8991b65f04a9971b217163da21985f453fb21c0f215
+bin-sha: 22fa3043b05832c1fe2c62b02842abcdaf9dc79b878c8e5143313cf7a732375f

@@ -2,4 +2,4 @@ summary: A command-line tool that performs content-preserving transformations on
 webpage: https://github.com/qpdf/qpdf
 version: 11.9.1
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/qpdf-11.9.1-android-aarch64.tar.xz
-bin-sha: cc231427128d1d6bd5330559c2aab0b3760d9b7f52637f4e507198f207bc8005
+bin-sha: 7814dbb2f71b5f8848fcead5192f97e227f793c5d61592930534caae1c678cb9

@@ -2,4 +2,4 @@ summary: A command-line tool to create a hex dump of a given file or standard in
 webpage: https://www.vim.org/
 version: 9.1.0500
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/xxd-9.1.0500-android-aarch64.tar.xz
-bin-sha: d5b97cb18f20716256163aae6b45df4e633827701bc5ca16075c7608ec2e04de
+bin-sha: 4342a9d77b8ab2968c50c7596087b044ec1f876945a97261f125be60d2557ccf

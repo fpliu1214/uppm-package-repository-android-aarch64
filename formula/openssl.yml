@@ -2,4 +2,4 @@ summary: Cryptography and SSL/TLS Toolkit
 webpage: https://www.openssl.org/
 version: 3.3.1
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/openssl-3.3.1-android-aarch64.tar.xz
-bin-sha: f4d1426df4b8b60517033a341d4b81d5a05571e4b51ac4a5b956d579590a5068
+bin-sha: 5ca6c67bf70716d7597627212f81d38f83855a839c434033c5e9a3181e6db8c5

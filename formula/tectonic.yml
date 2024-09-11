@@ -2,4 +2,4 @@ summary: Modernized, complete, self-contained TeX/LaTeX engine
 webpage: https://tectonic-typesetting.github.io/
 version: 0.15.0
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/tectonic-0.15.0-android-aarch64.tar.xz
-bin-sha: af775f677725c8dd57922d6116bbcc2bc29d08ad66583b545f68517c4a81d152
+bin-sha: dda3b6c259e80ae75edc71be4f67c2caa05466862d323e25a5537afbb56f1b4f

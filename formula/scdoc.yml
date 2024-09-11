@@ -2,4 +2,4 @@ summary: A small man page generator
 webpage: https://sr.ht/~sircmpwn/scdoc/
 version: 1.11.3
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/scdoc-1.11.3-android-aarch64.tar.xz
-bin-sha: 5ffe5ff42e8b0050b5b604899d47e1fd1988739b42558babadc5ff41cf60b585
+bin-sha: 825c86909477c02f1a974a9f53549a0bc653ab2ab2c4d54a7a5fe0b927ec7b6d

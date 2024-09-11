@@ -2,4 +2,4 @@ summary: A packrat parser generator for C
 webpage: https://github.com/enechaev/packcc
 version: 2024.09.11
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/packcc-2024.09.11-android-aarch64.tar.xz
-bin-sha: 2785913b29813c5de882fd0e74644cdda356ff44dd249bcfc2db3d99e1aac5c3
+bin-sha: 9ba8f7449de3102c469265072d33206de74ec6bfa809c65777db42484715c723

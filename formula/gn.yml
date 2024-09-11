@@ -2,4 +2,4 @@ summary: A meta-build system for generating build files for ninja
 webpage: https://gn.googlesource.com/gn
 version: 2024.09.11
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/gn-2024.09.11-android-aarch64.tar.xz
-bin-sha: e641d46c25b1c692f87e540e59d8692b7a2e7b26a063630c7cb082332c848cc4
+bin-sha: 2bf70b3988e9f14425532d149501e8f0e52811fc079166bb923f9469a69441d6

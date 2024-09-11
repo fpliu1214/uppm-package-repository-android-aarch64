@@ -2,4 +2,4 @@ summary: A command-line tool to list open files
 webpage: https://people.freebsd.org/~abe
 version: 4.99.3
 bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2024.09.11/lsof-4.99.3-android-aarch64.tar.xz
-bin-sha: 7b7e303b68fb57fa3a16d9855f02dfad7516bcb5a95c4677533d0ac50210cc73
+bin-sha: a756427be2f5842b040acfe5bc5ae261d036feb8689b3c7900cd20c92b513e28
