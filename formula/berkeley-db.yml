@@ -1,0 +1,5 @@
+summary: A high-performance key/value database
+webpage: https://www.oracle.com/database/berkeley-db
+version: 18.1.40
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/berkeley-db-18.1.40-android-aarch64.release.tar.xz
+bin-sha: 24c96aeafd0e72c546378dbc2b432e56ead13e1d7db0244ca7d0b08f9da9ef1c

@@ -1,0 +1,5 @@
+summary: GNU implementation of time utility
+webpage: https://www.gnu.org/software/time/
+version: 1.9
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/gtime-1.9-android-aarch64.release.tar.xz
+bin-sha: b8830fa3269e65c4bb36b9431098b7d337a679ab37423729350ab1877df21ed5

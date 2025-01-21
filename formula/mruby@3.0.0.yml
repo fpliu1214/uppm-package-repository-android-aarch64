@@ -1,0 +1,5 @@
+summary: A lightweight implementation of the Ruby language
+webpage: https://mruby.org/
+version: 3.0.0
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/mruby-3.0.0-android-aarch64.release.tar.xz
+bin-sha: 6e959f8f8b14acfeb5732b7e5484306ae492e82d78f4c27cd1d491923392c229

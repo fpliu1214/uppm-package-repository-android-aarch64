@@ -1,0 +1,5 @@
+summary: State machine compiler
+webpage: https://www.colm.net/open-source/ragel/
+version: 6.10
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/ragel-6.10-android-aarch64.release.tar.xz
+bin-sha: 7a4a1959c20e48f892b56ba651445be36943de11e8965e27a662486f7921c496

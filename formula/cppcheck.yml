@@ -1,0 +1,5 @@
+summary: Static analysis tool for C and C++ code
+webpage: https://sourceforge.net/projects/cppcheck
+version: 2.16.0
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/cppcheck-2.16.0-android-aarch64.release.tar.xz
+bin-sha: 5ce1d92abc0455555ec8d14004639e3c42050255660d1584574233b5b4b7afc0

@@ -1,0 +1,5 @@
+summary: A portable package manager for Unix-like systems
+webpage: https://github.com/leleliu008/ppkg
+version: 0.1000.2
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/ppkg-0.1000.2-android-aarch64.release.tar.xz
+bin-sha: bb7f1571b52ac5a15d161ff0f0c34065a0ffcd99d17aa7ba9ebd490c0039c08d

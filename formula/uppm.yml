@@ -1,0 +1,5 @@
+summary: Universal Prebuild Package Manager
+webpage: https://github.com/leleliu008/uppm
+version: 0.17.0
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/uppm-0.17.0-android-aarch64.release.tar.xz
+bin-sha: 46264f3fe34ce41087a89d32fdf95ae27bf1ee98e742dfcbf3919bb48aa1f135

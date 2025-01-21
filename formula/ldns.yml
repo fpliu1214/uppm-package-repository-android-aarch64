@@ -1,0 +1,5 @@
+summary: DNS library written in C
+webpage: https://nlnetlabs.nl/projects/ldns/
+version: 1.8.3
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/ldns-1.8.3-android-aarch64.release.tar.xz
+bin-sha: 03437ee7e6b0a34fcba6d2d6dc1bdcdfa1a70120fa2c7ab949366571655235aa

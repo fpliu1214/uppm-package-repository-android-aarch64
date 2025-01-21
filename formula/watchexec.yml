@@ -1,0 +1,5 @@
+summary: Execute commands when watched files change
+webpage: https://github.com/watchexec/watchexec
+version: 2.1.1
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/watchexec-2.1.1-android-aarch64.release.tar.xz
+bin-sha: 667e865df8ddbf395a40250925e85dbbff86245a0fa1aa19dc149abe8009f4a1

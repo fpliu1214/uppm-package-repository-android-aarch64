@@ -1,0 +1,5 @@
+summary: Validating, recursive, caching DNS resolver
+webpage: https://www.unbound.net
+version: 1.21.0
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/unbound-1.21.0-android-aarch64.release.tar.xz
+bin-sha: e32e649432a84a0b16d206ae9d49ff2c4c431b61a3d9920d18fa28824fe7aec3

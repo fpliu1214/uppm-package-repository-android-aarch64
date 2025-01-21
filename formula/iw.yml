@@ -1,0 +1,5 @@
+summary: A powerful tool for managing and manipulating wireless devices
+webpage: https://wireless.wiki.kernel.org/en/users/Documentation/iw
+version: 6.7
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/iw-6.7-android-aarch64.release.tar.xz
+bin-sha: 864fd0ecfc3038bc952baae089f14e32d31d16f8817f74d7fb6ae0789cf202cd

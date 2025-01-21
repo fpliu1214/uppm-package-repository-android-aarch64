@@ -1,0 +1,5 @@
+summary: A free spell checker and morphological analyzer
+webpage: https://hunspell.github.io
+version: 1.7.2
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/hunspell-1.7.2-android-aarch64.release.tar.xz
+bin-sha: c7f5dae291d1fcc5ef7b8b6d84efdd4eac0b59a24f68f24b2fd24383b3359641

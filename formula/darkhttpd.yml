@@ -1,0 +1,5 @@
+summary: A small static web server without CGI
+webpage: https://unix4lyfe.org/darkhttpd/
+version: 1.16
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/darkhttpd-1.16-android-aarch64.release.tar.xz
+bin-sha: 85f404ce1ef1a498ce380e56b16ad54dfc720971bb3b921dfce2175670214284

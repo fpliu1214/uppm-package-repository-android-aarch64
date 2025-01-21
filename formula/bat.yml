@@ -1,0 +1,5 @@
+summary: Clone of cat(1) with syntax highlighting and Git integration
+webpage: https://github.com/sharkdp/bat
+version: 0.24.0
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/bat-0.24.0-android-aarch64.release.tar.xz
+bin-sha: 7172ea264edf56a28d805b0556deecc181165c58fd7f76d4cf8da0c148017f91

@@ -1,0 +1,5 @@
+summary: hexdump cli
+webpage: https://www.25thandclement.com/~william/projects/hexdump.c.html
+version: 20181215
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/hexdump-20181215-android-aarch64.release.tar.xz
+bin-sha: 40b0f339c8b7832c3e1047a7345dbf1ad5cdfa0900ceddbaef2203df20966cc7

@@ -1,0 +1,5 @@
+summary: A post-modern modal text editor
+webpage: https://helix-editor.com/
+version: 24.07
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/helix-24.07-android-aarch64.release.tar.xz
+bin-sha: d23ef7c645719fd4ebf20528c19e27cf0e64d15c7258bd3fc8ecc0efd4e473c4

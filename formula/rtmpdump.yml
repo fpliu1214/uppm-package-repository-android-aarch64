@@ -1,0 +1,5 @@
+summary: A command-line tool for downloading RTMP streaming media
+webpage: https://rtmpdump.mplayerhq.hu
+version: 2.4+20151223
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/rtmpdump-2.4+20151223-android-aarch64.release.tar.xz
+bin-sha: 5983443d943bc19fdb8f9f0278d9a68337a38ed4222caee85ba6c7cab2523189

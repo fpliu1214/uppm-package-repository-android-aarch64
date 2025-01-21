@@ -1,0 +1,5 @@
+summary: Compression program with a very high compression ratio
+webpage: http://lrzip.kolivas.org
+version: 0.651
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/lrzip-0.651-android-aarch64.release.tar.xz
+bin-sha: 61ba74c7178f763ba24cbb3a48e3e55892377387e102f709af3c85c0b4b02fbe

@@ -1,0 +1,5 @@
+summary: Basis Universal GPU texture codec command-line compression tool
+webpage: https://github.com/BinomialLLC/basis_universal
+version: 1.16.4
+bin-url: https://github.com/fpliu1214/uppm-package-repository-android-aarch64/releases/download/2025.01.21/basis_universal-1.16.4-android-aarch64.release.tar.xz
+bin-sha: dd4454e9343806256f93a306612ad664b4b3f7051c4e8ce044bc0cf28cc4deda
